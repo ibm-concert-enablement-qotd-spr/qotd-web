@@ -1,6 +1,6 @@
 if (process.env.ENABLE_INSTANA == "true") {
     require('@instana/collector')();
-}
+} 
 require('dotenv').config(); 
 
 const express = require('express');
